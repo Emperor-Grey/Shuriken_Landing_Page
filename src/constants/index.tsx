@@ -27,7 +27,7 @@ export const PRICING_PLANS = [
   },
   {
     title: "Pro",
-    price: "$29",
+    price: "₹299",
     features: [
       "Unlimited Course Access",
       "Advanced AI Learning Paths",

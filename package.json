@@ -34,33 +34,3 @@
     "vite": "^5.4.2"
   }
 }
-
-
-// src/
-// ├── components/
-// │   ├── layout/
-// │   │   ├── Footer.tsx
-// │   │   ├── Header.tsx
-// │   │   └── Navigation.tsx
-// │   ├── sections/
-// │   │   ├── Hero.tsx
-// │   │   ├── Features.tsx
-// │   │   ├── Team.tsx
-// │   │   ├── Testimonials.tsx
-// │   │   ├── Pricing.tsx
-// │   │   ├── Stats.tsx
-// │   │   ├── LearningJourney.tsx
-// │   │   └── CTA.tsx
-// │   └── ui/
-// │       ├── moving-border.tsx (existing)
-// │       ├── text-generate-effect.tsx (existing)
-// │       └── animated-text.tsx (existing)
-// ├── constants/
-// │   └── index.ts
-// ├── types/
-// │   └── index.ts
-// ├── styles/
-// │   └── index.css (move from src/index.css)
-// └── assets/
-//     └── svgs/
-//         └── logo.svg (existing)
