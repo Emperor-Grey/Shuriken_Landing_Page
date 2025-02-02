@@ -1,7 +1,13 @@
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
+import { motion, useAnimation } from 'framer-motion';
+import { useEffect } from 'react';
 
-export const AnimatedText = ({ text, className = "" }: { text: string; className?: string }) => {
+export const AnimatedText = ({
+  text,
+  className = '',
+}: {
+  text: string;
+  className?: string;
+}) => {
   const controls = useAnimation();
 
   useEffect(() => {
@@ -10,8 +16,8 @@ export const AnimatedText = ({ text, className = "" }: { text: string; className
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
-      }
+        ease: 'easeOut',
+      },
     });
   }, [controls]);
 

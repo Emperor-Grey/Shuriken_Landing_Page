@@ -16,7 +16,7 @@ export default {
           700: '#004B9E',
           800: '#003875',
           900: '#00264D',
-          950: '#001833'
+          950: '#001833',
         },
         dark: {
           DEFAULT: '#000000',
@@ -30,13 +30,13 @@ export default {
           700: '#3F3F46',
           800: '#26272B',
           900: '#18181B',
-          950: '#09090B'
-        }
+          950: '#09090B',
+        },
       },
       animation: {
-        'meteor': 'meteor 5s linear infinite',
-        'spotlight': 'spotlight 2s ease .75s 1 forwards',
-        'shimmer': 'shimmer 2s linear infinite',
+        meteor: 'meteor 5s linear infinite',
+        spotlight: 'spotlight 2s ease .75s 1 forwards',
+        shimmer: 'shimmer 2s linear infinite',
         'fade-in': 'fade-in 0.5s linear forwards',
         'fade-down': 'fade-down 0.5s linear forwards',
         'fade-up': 'fade-up 0.5s linear forwards',
@@ -44,7 +44,7 @@ export default {
         'slow-spin': 'spin 20s linear infinite',
       },
       keyframes: {
-        'meteor': {
+        meteor: {
           '0%': { transform: 'rotate(215deg) translateX(0)', opacity: '1' },
           '70%': { opacity: '1' },
           '100%': {
@@ -52,11 +52,11 @@ export default {
             opacity: '0',
           },
         },
-        'spotlight': {
+        spotlight: {
           '0%': { opacity: '0', transform: 'scale(0.9)' },
           '100%': { opacity: '1', transform: 'scale(1)' },
         },
-        'shimmer': {
+        shimmer: {
           from: { backgroundPosition: '0 0' },
           to: { backgroundPosition: '-200% 0' },
         },
@@ -75,12 +75,13 @@ export default {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-50%)' },
-        }
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      }
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],

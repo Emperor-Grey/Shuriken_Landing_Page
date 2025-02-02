@@ -1,20 +1,20 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
-import { MovingBorder } from "../ui/moving-border";
-import Logo from "../../../assets/svgs/logo.svg";
-import { NAV_ITEMS } from "@/constants";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
+import { MovingBorder } from '../ui/moving-border';
+import Logo from '../../../assets/svgs/logo.svg';
+import { NAV_ITEMS } from '@/constants';
 
 export const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    "Features",
-    "Solutions",
-    "Pricing",
-    "Team",
-    "About",
-    "Contact",
+    'Features',
+    'Solutions',
+    'Pricing',
+    'Team',
+    'About',
+    'Contact',
   ];
 
   return (
@@ -32,7 +32,7 @@ export const Navigation = () => {
                   transition={{
                     duration: 3,
                     repeat: Infinity,
-                    ease: "linear",
+                    ease: 'linear',
                   }}
                 >
                   <img
@@ -93,7 +93,7 @@ export const Navigation = () => {
       {/* Mobile Menu */}
       <motion.div
         className={`md:hidden absolute top-full left-0 right-0 mt-2 p-4 bg-dark-900/95 backdrop-blur-xl rounded-2xl border border-dark-800/50 ${
-          isMobileMenuOpen ? "block" : "hidden"
+          isMobileMenuOpen ? 'block' : 'hidden'
         }`}
         initial={{ opacity: 0, y: -20 }}
         animate={{

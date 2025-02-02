@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import { Github, Twitter, Linkedin } from "lucide-react";
-import Logo from "../../../assets/svgs/logo.svg";
+import { motion } from 'framer-motion';
+import { Github, Twitter, Linkedin } from 'lucide-react';
+import Logo from '../../../assets/svgs/logo.svg';
 
 export const Footer = () => {
   return (
@@ -23,9 +23,9 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-6">
               {[
-                { icon: <Github className="w-5 h-5" />, href: "#" },
-                { icon: <Twitter className="w-5 h-5" />, href: "#" },
-                { icon: <Linkedin className="w-5 h-5" />, href: "#" },
+                { icon: <Github className="w-5 h-5" />, href: '#' },
+                { icon: <Twitter className="w-5 h-5" />, href: '#' },
+                { icon: <Linkedin className="w-5 h-5" />, href: '#' },
               ].map((social, idx) => (
                 <motion.a
                   key={idx}
@@ -41,16 +41,16 @@ export const Footer = () => {
 
           {[
             {
-              title: "Platform",
-              links: ["Features", "Pricing", "Documentation", "Updates"],
+              title: 'Platform',
+              links: ['Features', 'Pricing', 'Documentation', 'Updates'],
             },
             {
-              title: "Resources",
-              links: ["Help Center", "Community", "Tutorials", "Support"],
+              title: 'Resources',
+              links: ['Help Center', 'Community', 'Tutorials', 'Support'],
             },
             {
-              title: "Company",
-              links: ["About", "Careers", "Contact", "Partners"],
+              title: 'Company',
+              links: ['About', 'Careers', 'Contact', 'Partners'],
             },
           ].map((column, idx) => (
             <div key={idx}>
